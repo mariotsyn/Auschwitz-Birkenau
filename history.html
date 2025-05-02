@@ -16,7 +16,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+  <link href="static/css/main.css" rel="stylesheet">
 </head>
 <body>
   <!-- Mobile Menu Toggle -->
@@ -33,7 +33,7 @@
   <!-- Sidebar Navigation -->
   <nav class="sidebar">
     <div class="sidebar-header">
-      <a href="/" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
+      <a href="index.html" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
       <span class="sidebar-subtitle">Guía Educativa</span>
     </div>
     
@@ -48,10 +48,10 @@
     
     <div class="sidebar-section">
       <div class="sidebar-section-title">Navegación</div>
-      <a href="/">Inicio</a>
-      <a href="/auschwitz">Auschwitz I</a>
-      <a href="/birkenau">Auschwitz II-Birkenau</a>
-      <a href="/guidelines">Normas de visita</a>
+      <a href="index.html">Inicio</a>
+      <a href="auschwitz.html">Auschwitz I</a>
+      <a href="birkenau.html">Auschwitz II-Birkenau</a>
+      <a href="guidelines.html">Normas de visita</a>
     </div>
   </nav>
 
@@ -275,13 +275,13 @@
       <div style="max-width: 1000px; width: 100%;">
         <div class="footer-links text-center">
           <a href="https://www.auschwitz.org" target="_blank">Sitio oficial</a>
-          <a href="/">Inicio</a>
-          <a href="/auschwitz">Auschwitz I</a>
-          <a href="/birkenau">Auschwitz II-Birkenau</a>
-          <a href="/guidelines">Normas de visita</a>
-          <a href="/license">Licencia</a>
+          <a href="index.html">Inicio</a>
+          <a href="auschwitz.html">Auschwitz I</a>
+          <a href="birkenau.html">Auschwitz II-Birkenau</a>
+          <a href="guidelines.html">Normas de visita</a>
+          <a href="license.html">Licencia</a>
         </div>
-        <p class="text-center">© {{ 2025 }} Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
+        <p class="text-center">© 2025 Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
         <p class="text-center small mt-2 license-footer">Copyright © 2025 Mario Teruel. Todos los derechos reservados.</p>
       </div>
     </footer>
@@ -303,6 +303,6 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <script src="static/js/main.js"></script>
 </body>
 </html>
