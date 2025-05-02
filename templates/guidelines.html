@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Normas de visita para el Memorial y Museo Estatal de Auschwitz-Birkenau">
+  
+  <title>Normas de visita | Memorial Auschwitz-Birkenau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button id="menuToggle" class="menu-toggle d-lg-none" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <i id="moonIcon" class="bi bi-moon"></i>
+    <i id="sunIcon" class="bi bi-sun d-none"></i>
+  </button>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <a href="/" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
+      <span class="sidebar-subtitle">Guía Educativa</span>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Normas de visita</div>
+      <a href="#intro" class="active">Introducción</a>
+      <a href="#respect">Respeto y decoro</a>
+      <a href="#photography">Fotografía</a>
+      <a href="#practical">Información práctica</a>
+      <a href="#groups">Grupos y educadores</a>
+      <a href="#resources">Recursos adicionales</a>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Navegación</div>
+      <a href="/">Inicio</a>
+      <a href="/auschwitz">Auschwitz I</a>
+      <a href="/birkenau">Auschwitz II-Birkenau</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://cdn-imgix.headout.com/blog-banner/image/915a210e32cb1018183aa0a4d4c60c57-Auschwitz%20Birkenau.jpeg')">
+      <div class="overlay" data-aos="fade-up">
+        <h1>Normas de visita</h1>
+        <p class="lead">DIRECTRICES PARA UNA VISITA RESPETUOSA</p>
+        <div class="scroll-indicator">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-inner">
+      <!-- Introduction -->
+      <section id="intro" class="mb-5" data-aos="fade-up">
+        <h2>Introducción</h2>
+        <div class="site-content">
+          <p>La visita al Memorial y Museo Estatal de Auschwitz-Birkenau constituye una experiencia profundamente conmovedora que requiere una preparación y actitud adecuadas. Este lugar, donde más de un millón de personas fueron asesinadas, no es un destino turístico convencional sino un espacio de memoria, educación y reflexión.</p>
+          
+          <p>Las siguientes directrices tienen como objetivo garantizar que todos los visitantes puedan experimentar el sitio de manera respetuosa, preservando la dignidad de las víctimas y la integridad del memorial. Estas normas reflejan las recomendaciones oficiales del Museo Estatal de Auschwitz-Birkenau, adaptadas para esta guía educativa.</p>
+          
+          <div class="quote">
+            "Un lugar como Auschwitz-Birkenau requiere silencio y recogimiento. Al entrar en este espacio, entramos a un cementerio sin tumbas, donde recordar se convierte en un acto de justicia." — Piotr Cywiński, Director del Museo Estatal de Auschwitz-Birkenau
+          </div>
+        </div>
+      </section>
+
+      <!-- Respect Section -->
+      <section id="respect" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Respeto y decoro</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/33/2/1/20110406_155733,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Visitantes en el Memorial de Auschwitz-Birkenau">
+            <div class="site-img-caption">Visitantes manteniendo una actitud de respeto durante su recorrido. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Comportamiento general:</strong></p>
+          <ul>
+            <li>Mantenga silencio o hable en voz baja durante toda la visita, especialmente en áreas particularmente sensibles como las cámaras de gas, los crematorios y el "Muro de la Muerte".</li>
+            <li>Absténgase de usar teléfonos móviles para conversaciones. Los dispositivos deben estar en modo silencioso.</li>
+            <li>No consuma alimentos, bebidas ni fume durante el recorrido. Hay áreas designadas donde puede hacerlo.</li>
+            <li>Vista de manera apropiada y respetuosa. Se recomienda ropa que cubra hombros y rodillas.</li>
+            <li>No se permite la entrada a personas bajo la influencia del alcohol u otras sustancias.</li>
+          </ul>
+          
+          <p><strong>Preservación del sitio:</strong></p>
+          <ul>
+            <li>No toque las exhibiciones, objetos o estructuras del campo, muchos son frágiles y de gran valor histórico.</li>
+            <li>No retire ningún objeto del sitio, por pequeño que sea (incluidas piedras, fragmentos, etc.). Esto es ilegal y éticamente incorrecto.</li>
+            <li>No escriba ni marque ninguna estructura (incluido el muro de ladrillo o los barracones).</li>
+            <li>Siga únicamente los caminos y rutas establecidos. No entre en áreas restringidas.</li>
+          </ul>
+          
+          <p><strong>Respeto a símbolos:</strong></p>
+          <ul>
+            <li>Evite cualquier gesto o postura que pueda ser interpretada como una falta de respeto (poses inapropiadas, gestos extremos, etc.).</li>
+            <li>Absténgase de realizar cualquier forma de manifestación política, excepto en ceremonias oficiales autorizadas.</li>
+            <li>No se permite el uso o exhibición de símbolos de grupos que promuevan el odio.</li>
+          </ul>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Adoptar una actitud respetuosa durante la visita es una forma de honrar la memoria de las víctimas y reconocer la singularidad histórica del Holocausto. El respeto no es simplemente una cuestión de cumplir normas, sino de conectarse emocionalmente con el significado profundo del lugar.
+          </div>
+        </div>
+      </section>
+
+      <!-- Photography Section -->
+      <section id="photography" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Fotografía</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/33/3/1/20110406_155907,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Visitantes en el Memorial">
+            <div class="site-img-caption">La fotografía es permitida en la mayoría de áreas, pero debe realizarse de manera respetuosa. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Directrices para fotografía:</strong></p>
+          <ul>
+            <li>Se permite la fotografía sin flash en la mayoría de las áreas exteriores y en algunos espacios interiores (excepto donde se indique lo contrario mediante señalización).</li>
+            <li>Está prohibido usar flash, trípodes o equipos profesionales sin autorización previa.</li>
+            <li>Hay áreas donde la fotografía está estrictamente prohibida por respeto a las víctimas, como la sala con el cabello humano en el Bloque 4 de Auschwitz I.</li>
+            <li>No se permite la fotografía con fines comerciales sin permiso especial del Museo.</li>
+            <li>Está prohibido el uso de drones en todo el perímetro del Memorial.</li>
+          </ul>
+          
+          <p><strong>Ética fotográfica:</strong></p>
+          <ul>
+            <li>Evite las selfies o poses inapropiadas que no respeten la dignidad del lugar.</li>
+            <li>Considere si es necesario fotografiar todo; a veces, experimentar el momento presente sin la mediación de una cámara permite una conexión más profunda.</li>
+            <li>Si comparte sus fotografías en redes sociales, hágalo de manera educativa y reflexiva, evitando hashtags frivolos o tratamientos de imagen inapropiados.</li>
+            <li>Respete a otros visitantes que pueden estar teniendo momentos de duelo o reflexión personal.</li>
+          </ul>
+          
+          <div class="quote">
+            "Fotografiar en Auschwitz no es como hacerlo en otros lugares. Cada imagen debería capturar no solo lo visible, sino también lo invisible: la ausencia de quienes ya no están." — Fotógrafo del Museo Estatal de Auschwitz-Birkenau
+          </div>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> En la era digital, es importante considerar cómo nuestras fotografías y su difusión contribuyen a la memoria colectiva del Holocausto. Las imágenes pueden ser poderosas herramientas educativas, pero también pueden trivializar la tragedia si no se realizan y comparten con la sensibilidad adecuada.
+          </div>
+        </div>
+      </section>
+
+      <!-- Practical Information Section -->
+      <section id="practical" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Información práctica</h3>
+          
+          <p><strong>Preparación para la visita:</strong></p>
+          <ul>
+            <li>El recorrido completo de ambos campos (Auschwitz I y Birkenau) requiere al menos 3.5-4 horas.</li>
+            <li>Use calzado cómodo, ya que el recorrido implica caminar varios kilómetros.</li>
+            <li>Prepare ropa adecuada según las condiciones climáticas. Birkenau es un espacio abierto expuesto a los elementos.</li>
+            <li>En verano, lleve agua (que puede consumirse en áreas designadas) y protección solar.</li>
+            <li>En invierno, las temperaturas pueden ser extremadamente bajas; use ropa de abrigo adecuada.</li>
+          </ul>
+          
+          <p><strong>Accesibilidad:</strong></p>
+          <ul>
+            <li>Auschwitz I tiene accesibilidad limitada para personas con movilidad reducida debido a su estructura histórica.</li>
+            <li>Birkenau presenta desafíos adicionales por sus caminos de grava y grandes distancias.</li>
+            <li>Hay disponibles rutas alternativas y asistencia para visitantes con necesidades especiales, que deben solicitarse con antelación.</li>
+            <li>Se permiten perros guía para personas con discapacidad visual.</li>
+          </ul>
+          
+          <p><strong>Servicios disponibles:</strong></p>
+          <ul>
+            <li>Hay baños disponibles en las entradas de ambos campos y en puntos seleccionados.</li>
+            <li>Entre Auschwitz I y Birkenau (separados por 3 km) hay un servicio gratuito de autobús lanzadera.</li>
+            <li>Librería y cafetería disponibles cerca de la entrada de Auschwitz I.</li>
+            <li>Se recomienda reservar la visita con antelación, especialmente en temporada alta (abril-octubre).</li>
+          </ul>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Una buena preparación práctica permite que la experiencia de la visita sea más significativa, permitiendo concentrarse en el contenido histórico y emocional del sitio sin preocupaciones logísticas innecesarias.
+          </div>
+        </div>
+      </section>
+
+      <!-- Groups and Educators Section -->
+      <section id="groups" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Grupos y educadores</h3>
+          
+          <p><strong>Recomendaciones para grupos:</strong></p>
+          <ul>
+            <li>Los grupos deben mantener cohesión durante la visita sin obstaculizar a otros visitantes.</li>
+            <li>Se recomienda que los educadores preparen a los estudiantes antes de la visita, contextualizando histórica y emocionalmente lo que van a presenciar.</li>
+            <li>Para grupos escolares, se sugiere un mínimo de 14 años de edad para los participantes, debido al impacto emocional del contenido.</li>
+            <li>Los educadores deben estar atentos a las reacciones emocionales de los estudiantes y estar preparados para ofrecer apoyo si es necesario.</li>
+          </ul>
+          
+          <p><strong>Preparación educativa:</strong></p>
+          <ul>
+            <li>Antes de la visita, es recomendable proporcionar a los estudiantes un marco histórico básico sobre el Holocausto y el sistema concentracionario nazi.</li>
+            <li>Durante la visita, fomentar momentos de reflexión y procesamiento emocional, no solo la absorción de datos históricos.</li>
+            <li>Después de la visita, facilitar espacios de diálogo donde los participantes puedan expresar sus pensamientos y emociones.</li>
+            <li>Conectar la experiencia histórica con reflexiones sobre derechos humanos y responsabilidad cívica en el presente.</li>
+          </ul>
+          
+          <div class="quote">
+            "Educar sobre Auschwitz no es solo transmitir hechos históricos, sino formar ciudadanos conscientes que reconozcan y se opongan a las semillas de la intolerancia en sus propias sociedades." — Educador del Departamento Educativo del Museo
+          </div>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> La educación sobre el Holocausto tiene un doble propósito: preservar la memoria histórica y extraer lecciones relevantes para el presente. Los educadores tienen la responsabilidad de equilibrar el rigor histórico con la sensibilidad emocional, creando experiencias de aprendizaje que respeten tanto a las víctimas del pasado como a los estudiantes del presente.
+          </div>
+        </div>
+      </section>
+
+      <!-- Additional Resources Section -->
+      <section id="resources" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Recursos adicionales</h3>
+          
+          <p><strong>Para preparar la visita:</strong></p>
+          <ul>
+            <li><a href="https://www.auschwitz.org" target="_blank">Sitio web oficial del Museo Estatal de Auschwitz-Birkenau</a> - Información completa sobre horarios, visitas guiadas y normas actualizadas.</li>
+            <li><a href="https://www.auschwitz.org/en/visiting/virtual-tour/" target="_blank">Recorrido virtual de Auschwitz</a> - Permite familiarizarse con el sitio antes de la visita física.</li>
+            <li><a href="https://www.auschwitz.org/en/education/" target="_blank">Recursos educativos del Museo</a> - Materiales para educadores y estudiantes.</li>
+          </ul>
+          
+          <p><strong>Testimonios y documentación:</strong></p>
+          <ul>
+            <li><a href="https://www.ushmm.org" target="_blank">Museo Memorial del Holocausto de Estados Unidos</a> - Extensa colección de testimonios y recursos educativos.</li>
+            <li><a href="https://www.yadvashem.org" target="_blank">Yad Vashem</a> - Centro Mundial de Conmemoración de la Shoá con amplia documentación histórica.</li>
+            <li><a href="https://sfi.usc.edu/" target="_blank">USC Shoah Foundation</a> - Archivo de testimonios audiovisuales de supervivientes del Holocausto.</li>
+          </ul>
+          
+          <p><strong>Bibliografía recomendada:</strong></p>
+          <ul>
+            <li>"Si esto es un hombre" de Primo Levi - Testimonio esencial de un superviviente de Auschwitz.</li>
+            <li>"Auschwitz: Una nueva historia" de Laurence Rees - Estudio histórico riguroso basado en testimonios de supervivientes y perpetradores.</li>
+            <li>"Los hundidos y los salvados" de Primo Levi - Reflexión profunda sobre la experiencia concentracionaria y sus secuelas.</li>
+            <li>"El tatuador de Auschwitz" de Heather Morris - Basada en la historia real de Lale Sokolov, tatuador en el campo.</li>
+          </ul>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> El proceso de aprendizaje sobre el Holocausto no termina con la visita física a Auschwitz-Birkenau. Estos recursos complementarios permiten profundizar en la comprensión histórica y ética de este evento crucial en la historia humana, contribuyendo a una memoria más rica y matizada.
+          </div>
+        </div>
+      </section>
+
+      <!-- Final Reflection -->
+      <section class="mt-5" data-aos="fade-up">
+        <div class="site-content">
+          <h3 class="text-center">Reflexión final</h3>
+          
+          <p>Visitar Auschwitz-Birkenau no es una experiencia que se pueda asimilar inmediatamente. Los sentimientos de conmoción, tristeza, indignación o confusión que surgen durante y después de la visita son naturales y parte del proceso de confrontar una realidad histórica tan extrema.</p>
+          
+          <p>Como visitantes, tenemos la responsabilidad de no solo absorber esta historia, sino de reflexionar sobre sus implicaciones para nuestro presente y futuro. Las preguntas que Auschwitz plantea —sobre la naturaleza humana, la fragilidad de la civilización, los peligros del prejuicio y la indiferencia— siguen siendo urgentemente relevantes.</p>
+          
+          <div class="quote">
+            "Auschwitz no se trata solo del pasado, sino también del presente y del futuro. Es una advertencia sobre lo que puede suceder cuando el odio queda sin respuesta y cuando la dignidad humana es negada sistemáticamente." — Ronald S. Lauder, Presidente del Congreso Judío Mundial
+          </div>
+          
+          <p>Al seguir estas directrices de visita, no solo estamos mostrando respeto por las víctimas históricas, sino también comprometiéndonos con una forma ética de recordar que honra el pasado mientras construye un futuro más justo y humano.</p>
+        </div>
+      </section>
+
+    </div><!-- /content-inner -->
+
+    <!-- Footer -->
+    <footer>
+      <div style="max-width: 1000px; width: 100%;">
+        <div class="footer-links text-center">
+          <a href="https://www.auschwitz.org" target="_blank">Sitio oficial</a>
+          <a href="/">Inicio</a>
+          <a href="/auschwitz">Auschwitz I</a>
+          <a href="/birkenau">Auschwitz II-Birkenau</a>
+          <a href="/guidelines">Normas de visita</a>
+          <a href="/license">Licencia</a>
+        </div>
+        <p class="text-center">© {{ 2025 }} Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
+        <p class="text-center small mt-2 license-footer">Copyright © 2025 Mario Teruel. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </div><!-- /content -->
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img id="modalImage" src="" class="img-fluid w-100" alt="Vista ampliada">
+          <div id="modalCaption" class="p-3 text-center fst-italic"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

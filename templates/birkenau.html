@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Auschwitz II-Birkenau - Guía educativa para visitantes del Memorial y Museo Estatal de Auschwitz-Birkenau">
+  
+  <title>Auschwitz II-Birkenau | Memorial Auschwitz-Birkenau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button id="menuToggle" class="menu-toggle d-lg-none" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <i id="moonIcon" class="bi bi-moon"></i>
+    <i id="sunIcon" class="bi bi-sun d-none"></i>
+  </button>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <a href="/" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
+      <span class="sidebar-subtitle">Guía Educativa</span>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Auschwitz II-Birkenau</div>
+      <a href="#intro" class="active">Introducción a Birkenau</a>
+      <a href="#b1">Puerta principal</a>
+      <a href="#b2">Rampa de selección</a>
+      <a href="#b3">Ruinas Crematorios II-III</a>
+      <a href="#b4">Barracones</a>
+      <a href="#b5">Monumento Internacional</a>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Navegación</div>
+      <a href="/">Inicio</a>
+      <a href="/auschwitz">Auschwitz I</a>
+      <a href="/guidelines">Normas de visita</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://cdn-imgix.headout.com/blog-banner/image/915a210e32cb1018183aa0a4d4c60c57-Auschwitz%20Birkenau.jpeg')">
+      <div class="overlay" data-aos="fade-up">
+        <h1>Auschwitz II-Birkenau</h1>
+        <p class="lead">CENTRO DE EXTERMINIO</p>
+        <div class="scroll-indicator">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-inner">
+      <!-- Introduction -->
+      <section id="intro" class="mb-5" data-aos="fade-up">
+        <h2>Introducción a Birkenau</h2>
+        <div class="site-content">
+          <p>Auschwitz II-Birkenau, construido en 1941 a tres kilómetros de Auschwitz I, se convirtió en el mayor campo de exterminio del complejo y el epicentro del Holocausto. Con una extensión de 175 hectáreas, este campo fue diseñado específicamente para implementar la "Solución Final", el plan nazi para el exterminio sistemático de los judíos europeos.</p>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/1/3/1/20110720_094932,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Vista aérea de Birkenau">
+            <div class="site-img-caption">Vista aérea de Auschwitz II-Birkenau. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p>A diferencia de Auschwitz I, con sus edificios de ladrillo, Birkenau se caracteriza por sus extensos terrenos, vías férreas interiores, y cientos de barracones prefabricados de madera. La escala industrial de este campo refleja la magnitud del genocidio nazi: en sus cuatro grandes crematorios con cámaras de gas anexas, podían asesinarse hasta 10.000 personas diariamente.</p>
+          
+          <p>Birkenau estaba dividido en varios sectores, incluyendo áreas separadas para hombres, mujeres, familias gitanas y el infame "campo familiar de Theresienstadt". También contenía el "Kanada", donde se clasificaban las pertenencias robadas a las víctimas, y el "México", una sección nunca terminada donde los prisioneros vivían en condiciones aún más extremas.</p>
+          
+          <p>Hoy, aunque muchos barracones han desaparecido, las ruinas de los crematorios dinamitados por los nazis, los restos de barracones y la inmensidad del paisaje nos permiten comprender la escala del genocidio perpetrado en este lugar.</p>
+        </div>
+      </section>
+
+      <!-- Birkenau Sites -->
+      <section id="b1" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Puerta principal «Puerta de la Muerte»</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/90/10/1/20150722_112422,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Puerta principal de Birkenau">
+            <div class="site-img-caption">La entrada principal a Auschwitz II-Birkenau, conocida como "Puerta de la Muerte". © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Símbolo del exterminio:</strong> La entrada principal de Birkenau, con su característica torre de vigilancia y el arco por donde pasaban las vías del tren, se ha convertido en un símbolo reconocido internacionalmente del Holocausto. A diferencia de la entrada de Auschwitz I, aquí no hay un lema engañoso, solo la brutal funcionalidad de una estructura diseñada para facilitar el transporte de víctimas hacia su muerte.</p>
+          
+          <p><strong>Las vías férreas:</strong> En 1944, para aumentar la eficiencia del exterminio, las vías férreas fueron extendidas para permitir que los trenes entraran directamente al interior del campo, llegando hasta un punto cercano a los crematorios. Esto eliminaba la necesidad de transportar a las víctimas desde la estación de Oświęcim, acelerando el proceso de selección y asesinato.</p>
+          
+          <p><strong>El Holocausto húngaro:</strong> Durante la primavera y verano de 1944, estas vías fueron testigo de uno de los episodios más intensos del Holocausto: la deportación y asesinato de aproximadamente 437.000 judíos húngaros en apenas 56 días. Los trenes llegaban continuamente, y la mayoría de deportados eran enviados directamente a las cámaras de gas.</p>
+          
+          <div class="quote">
+            "Desde el torreón, los SS podían ver kilómetros a la redonda. Veían llegar los trenes cargados de gente y, horas después, solo quedaba el humo de los crematorios. El torreón no era solo un punto de vigilancia, era un punto de control para toda la operación de exterminio." — Rudolf Vrba, quien escapó de Auschwitz en abril de 1944 para alertar al mundo
+          </div>
+          
+          <p><strong>La última fase:</strong> Entre mayo y julio de 1944, las deportaciones alcanzaron su máxima intensidad. En algunos días llegaban hasta tres trenes, cada uno con 3.000-5.000 personas. Las cámaras de gas y crematorios funcionaban las 24 horas, y cuando se superaba su capacidad, se utilizaban fosas de incineración al aire libre.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> La "Puerta de la Muerte" simboliza el punto de no retorno para más de un millón de personas. Representa la perversión de la infraestructura moderna (ferrocarriles, sistemas de organización) para facilitar un genocidio a escala industrial.
+          </div>
+        </div>
+      </section>
+
+      <section id="b2" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Rampa de selección</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/96/1/1/20100917_121358,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Rampa de selección en Birkenau">
+            <div class="site-img-caption">La rampa de selección en Birkenau, donde los deportados eran divididos entre quienes serían asesinados inmediatamente y quienes serían sometidos a trabajos forzados. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>El proceso de selección:</strong> Tras descender de los trenes, exhaustos después de días de viaje en condiciones inhumanas, los deportados eran sometidos a una selección inmediata. Médicos de las SS, como Josef Mengele, decidían en segundos quién viviría momentáneamente y quién moriría de inmediato. Un simple gesto hacia la derecha o la izquierda determinaba el destino.</p>
+          
+          <p>Aproximadamente el 75-80% de los deportados (ancianos, niños, mujeres con niños pequeños, enfermos y débiles) eran enviados directamente a las cámaras de gas sin ser registrados en el campo, lo que explica por qué nunca se conocerá el número exacto de víctimas.</p>
+          
+          <p><strong>El engaño organizado:</strong> Para evitar el pánico y la resistencia, las SS mantenían la ilusión de reasentamiento. Se decía a las víctimas que iban a ducharse tras el largo viaje y que sus pertenencias les serían devueltas. Las cámaras de gas estaban camufladas como instalaciones de duchas, con tuberías falsas y cabezales de ducha sin conexión de agua.</p>
+          
+          <div class="quote">
+            "No supe qué había pasado con mi madre hasta mucho después. Cuando me separaron de ella, creía que nos reuniríamos tras la 'ducha'. La última imagen que tengo de ella es su mano agitándose en despedida mientras la llevaban hacia lo que ahora sé que era la cámara de gas." — Elie Wiesel, Premio Nobel de la Paz y sobreviviente
+          </div>
+          
+          <p><strong>Los seleccionados para trabajar:</strong> Quienes eran considerados aptos para el trabajo forzado pasaban por el proceso de registro: les rapaban la cabeza, los desinfectaban, los tatuaban con un número y les daban uniforme de rayas. La expectativa de vida para estos prisioneros rara vez superaba los pocos meses debido al trabajo extenuante, la desnutrición y las enfermedades.</p>
+          
+          <p><strong>Momento de separación familiar:</strong> La rampa era el lugar donde familias enteras eran separadas para siempre, a menudo sin siquiera poder despedirse. Madres separadas de sus hijos, esposos de sus esposas, hermanos de sus hermanas. Esta dispersión familiar era parte del proceso de deshumanización.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> La rampa de selección representa un momento crucial de decisión arbitraria sobre la vida y la muerte, tomada sin criterios humanitarios y basada únicamente en la utilidad percibida de los seres humanos como fuerza de trabajo temporal. Nos confronta con la fragilidad de la dignidad humana cuando se niega el derecho fundamental a ser considerado persona.
+          </div>
+        </div>
+      </section>
+
+      <section id="b3" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Ruinas de los Crematorios II-III</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/66/7/1/20110725_110551,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Ruinas del Crematorio II">
+            <div class="site-img-caption">Ruinas del Crematorio II de Birkenau, dinamitado por los nazis antes de la evacuación del campo. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Centros de exterminio industrial:</strong> Los Crematorios II y III de Birkenau, construidos en 1943, representaban el punto culminante de la industrialización nazi del asesinato masivo. Cada instalación contaba con un vestuario subterráneo donde las víctimas se desvestían, una cámara de gas con capacidad para 2.000 personas, y una sala de cremación con cinco hornos triples que podían incinerar hasta 1.440 cuerpos en 24 horas.</p>
+          
+          <p><strong>Operación y proceso:</strong> Las víctimas seleccionadas para morir eran conducidas al vestuario, donde se les ordenaba desnudarse con el pretexto de una ducha de desinfección. Luego eran llevadas a la cámara de gas, que se sellaba herméticamente. Personal de las SS introducía los cristales de Zyklon B a través de aberturas en el techo, y la muerte por asfixia ocurría en aproximadamente 20 minutos de agonía.</p>
+          
+          <p>Después, miembros del Sonderkommando (prisioneros forzados a trabajar en las cámaras de gas y crematorios) retiraban los cuerpos, les extraían objetos de valor como dientes de oro, y los transportaban a los hornos crematorios. Las cenizas eran arrojadas a estanques cercanos o utilizadas como fertilizante.</p>
+          
+          <p><strong>Destrucción de evidencias:</strong> En enero de 1945, ante el avance del Ejército Rojo, los nazis dinamitaron estos crematorios para intentar ocultar las evidencias de sus crímenes. Sin embargo, las ruinas que permanecen, con sus fragmentos de hormigón, ladrillos y estructuras metálicas deformadas, constituyen una prueba física irrefutable del genocidio.</p>
+          
+          <div class="quote">
+            "Los hornos rugían día y noche. El cielo sobre Birkenau estaba teñido de rojo, y el olor... el olor a carne quemada impregnaba el aire a kilómetros de distancia. ¿Cómo puede alguien negar lo que ocurrió aquí cuando la tierra misma está saturada de cenizas humanas?" — Shlomo Venezia, sobreviviente del Sonderkommando
+          </div>
+          
+          <p><strong>La rebelión del Sonderkommando:</strong> El 7 de octubre de 1944, prisioneros del Sonderkommando del Crematorio IV organizaron una rebelión desesperada. Sabiendo que serían asesinados como testigos, lograron hacer explotar parte del crematorio con explosivos introducidos clandestinamente por mujeres que trabajaban en fábricas cercanas. Aunque casi todos los involucrados fueron ejecutados, esta rebelión representa uno de los actos más significativos de resistencia en Auschwitz.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Estas ruinas son quizás el testimonio más potente del Holocausto, no solo por lo que representan físicamente, sino por el contraste entre su estado actual (destruido, silencioso) y lo que una vez fueron: maquinarias de muerte operando a plena capacidad. Nos invitan a reflexionar sobre cómo la tecnología y la burocracia pueden ser pervertidas para facilitar atrocidades cuando se desconectan de principios éticos fundamentales.
+          </div>
+        </div>
+      </section>
+
+      <section id="b4" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Barracones</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/43/6/1/20110810_134134,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Interior de un barracón en Birkenau">
+            <div class="site-img-caption">Interior reconstruido de un barracón en Birkenau, mostrando las literas donde se hacinaban los prisioneros. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Condiciones de vida extremas:</strong> Los barracones de Birkenau representaban un nivel de degradación aún mayor que los de Auschwitz I. Existían dos tipos principales: los de ladrillo y los de madera (prefabricados, originalmente diseñados como establos para 52 caballos). En cada barracón, diseñado para albergar a 400-700 personas, se hacinaban hasta 1.000 prisioneros.</p>
+          
+          <p>Las "camas" eran literas de tres niveles donde dormían de 5 a 7 personas por nivel, sobre una delgada capa de paja infestada de piojos y otros parásitos. No había suficientes mantas, y durante los duros inviernos polacos, donde las temperaturas descendían muy por debajo de cero, muchos prisioneros morían de hipotermia durante la noche.</p>
+          
+          <p><strong>Instalaciones sanitarias:</strong> Las condiciones higiénicas eran deplorables. Los barracones carecían de instalaciones sanitarias adecuadas; los prisioneros disponían solo de unos minutos al día para usar las letrinas comunales, que consistían en largas filas de agujeros sobre pozos abiertos. Por la noche debían usar cubos dentro de los barracones. El acceso al agua para lavarse era extremadamente limitado.</p>
+          
+          <p><strong>Epidemias:</strong> Estas condiciones provocaron brotes continuos de enfermedades, especialmente tifus. En 1942, una epidemia de tifus mató a aproximadamente 30.000 prisioneros. Los enfermos recibían poca o ninguna atención médica, y muchos eran seleccionados para las cámaras de gas cuando ya no podían trabajar.</p>
+          
+          <div class="quote">
+            "Los barracones eran el infierno mismo. De noche, los sollozos, los gritos de pesadillas, los lamentos de los moribundos creaban una sinfonía macabra que hacía imposible cualquier descanso verdadero. El olor a enfermedad, excremento y muerte era tan denso que parecía tener forma física." — Primo Levi, escritor y sobreviviente
+          </div>
+          
+          <p><strong>El barracón 25:</strong> Particularmente temido era el barracón 25, la antesala de la muerte. Aquí se enviaba a los enfermos terminales y a quienes ya no podían trabajar. Sin atención médica, sin comida adecuada, estos prisioneros solían morir en días o eran seleccionados para las cámaras de gas en la siguiente selección.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Los barracones de Birkenau no eran simples alojamientos precarios, sino instrumentos deliberados de degradación humana. Diseñados para deshumanizar a sus ocupantes, nos recuerdan que la privación de condiciones dignas de vida es una forma de violencia sistemática que erosiona no solo la salud física sino también la identidad y dignidad humanas.
+          </div>
+        </div>
+      </section>
+
+      <section id="b5" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Monumento Internacional</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/66/8/1/20110725_111040,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Monumento Internacional en Birkenau">
+            <div class="site-img-caption">Monumento Internacional a las Víctimas del Campo de Auschwitz-Birkenau. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Símbolo de memoria colectiva:</strong> El Monumento Internacional a las Víctimas de Auschwitz-Birkenau, ubicado entre las ruinas de los Crematorios II y III, fue inaugurado el 16 de abril de 1967. Diseñado por un equipo internacional liderado por los escultores Pietro Cascella y Giorgio Simoncini, y los arquitectos Jerzy Jarnuszkiewicz y Julian Palka, representa el esfuerzo colectivo por honrar la memoria de todas las víctimas del campo.</p>
+          
+          <p><strong>Diseño y simbolismo:</strong> El monumento consta de una larga pasarela que conduce a un conjunto de bloques y formas abstractas de granito oscuro que evocan lápidas, chimeneas destruidas y vías férreas interrumpidas. Su sobriedad y escala reflejan la magnitud de la tragedia que conmemora, resistiéndose a cualquier intento de estetizar o simplificar el horror del Holocausto.</p>
+          
+          <p><strong>Las placas conmemorativas:</strong> Frente al monumento central hay 23 placas con el mismo texto en diferentes idiomas, representando las nacionalidades de las víctimas. El mensaje, profundamente conmovedor en su simplicidad, dice: "Que este lugar donde los nazis asesinaron a millón y medio de hombres, mujeres y niños, en su mayoría judíos de diversos países de Europa, sea por siempre un grito de desesperación y advertencia para la humanidad."</p>
+          
+          <p><strong>Ceremonia anual:</strong> Cada 27 de enero, aniversario de la liberación de Auschwitz por el Ejército Rojo en 1945, se realiza en este lugar una ceremonia conmemorativa internacional. Esta fecha fue designada por las Naciones Unidas como el Día Internacional de Conmemoración del Holocausto.</p>
+          
+          <div class="quote">
+            "Nadie debería jamás tener que pronunciar la frase 'Nunca más', porque cada generación debe asumir la responsabilidad de preservar la memoria y prevenir que el odio resurja. Este monumento no es solo un memorial a los muertos, sino un llamado a la acción para los vivos." — Marian Turski, superviviente y activista
+          </div>
+          
+          <p><strong>Un lugar para la reflexión:</strong> El monumento marca un punto final físico para la visita a Birkenau, pero representa el comienzo de un proceso de reflexión moral e histórica que debería continuar mucho después de abandonar el lugar. Se ha convertido en un espacio donde visitantes de todo el mundo, independientemente de su origen, pueden reunirse en un momento de silencio compartido.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Este monumento nos recuerda que la memoria del Holocausto pertenece a toda la humanidad. No es solo un recordatorio del pasado, sino una advertencia permanente sobre la fragilidad de la civilización y una llamada a defender la dignidad humana, la tolerancia y la paz. Nos invita a preguntarnos qué responsabilidades personales tenemos en la construcción de un mundo donde tales atrocidades no puedan repetirse.
+          </div>
+        </div>
+      </section>
+      
+      <!-- Final Reflection for Birkenau -->
+      <section class="mt-5" data-aos="fade-up">
+        <div class="site-content">
+          <h3 class="text-center">Reflexión sobre Birkenau</h3>
+          
+          <p>La inmensidad de Birkenau, con su horizonte de alambradas, torres de vigilancia y barracones extendiéndose en todas direcciones, transmite mejor que cualquier estadística la escala industrial del Holocausto. Este lugar, donde más de un millón de personas fueron asesinadas en apenas tres años, representa el punto culminante de un proceso de deshumanización que comenzó con leyes discriminatorias y culminó en genocidio.</p>
+          
+          <p>Al recorrer este vasto campo, caminamos sobre tierra saturada de cenizas humanas. El silencio que hoy predomina contrasta dramáticamente con el horror que una vez reinó aquí: los gritos, los ladridos de los perros, las órdenes en alemán, el llanto de los niños, el ruido incesante de los crematorios. Este contraste nos invita a un ejercicio de imaginación histórica que, aunque doloroso, es necesario para comprender verdaderamente lo que ocurrió.</p>
+          
+          <div class="quote">
+            "Si cerramos los ojos ante el pasado, seremos ciegos ante el futuro." — Richard von Weizsäcker, expresidente alemán
+          </div>
+          
+          <p>Birkenau nos confronta con preguntas fundamentales sobre la naturaleza humana y nuestra capacidad tanto para el mal como para la resistencia moral. También nos recuerda que el Holocausto no fue inevitable; fue el resultado de miles de decisiones tomadas por individuos, desde los más altos líderes nazis hasta los ciudadanos comunes que eligieron mirar hacia otro lado.</p>
+          
+          <p>Al abandonar Birkenau, llevamos con nosotros la responsabilidad de recordar, de educar y de estar vigilantes ante cualquier manifestación de odio, prejuicio o deshumanización en nuestras propias sociedades. Como dijo Elie Wiesel: "La neutralidad ayuda al opresor, nunca a la víctima. El silencio anima al verdugo, nunca al que sufre."</p>
+        </div>
+      </section>
+
+    </div><!-- /content-inner -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.auschwitz.org" target="_blank">Sitio oficial</a>
+        <a href="/">Inicio</a>
+        <a href="/auschwitz">Auschwitz I</a>
+      </div>
+      <p>© {{ 2025 }} Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
+    </footer>
+  </div><!-- /content -->
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img id="modalImage" src="" class="img-fluid w-100" alt="Vista ampliada">
+          <div id="modalCaption" class="p-3 text-center fst-italic"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

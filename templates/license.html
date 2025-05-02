@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Información sobre la licencia del Memorial y Museo Estatal de Auschwitz-Birkenau">
+  
+  <title>Licencia | Memorial Auschwitz-Birkenau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button id="menuToggle" class="menu-toggle d-lg-none" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <i id="moonIcon" class="bi bi-moon"></i>
+    <i id="sunIcon" class="bi bi-sun d-none"></i>
+  </button>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <a href="/" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
+      <span class="sidebar-subtitle">Guía Educativa</span>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Licencia</div>
+      <a href="#terms" class="active">Términos de uso</a>
+      <a href="#copyright">Derechos de autor</a>
+      <a href="#images">Imágenes</a>
+      <a href="#educational">Uso educativo</a>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Navegación</div>
+      <a href="/">Página principal</a>
+      <a href="/auschwitz">Auschwitz I</a>
+      <a href="/birkenau">Auschwitz II-Birkenau</a>
+      <a href="/guidelines">Normas de visita</a>
+      <a href="/history">Historia</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('{{ url_for('static', filename='img/banner/memorial_aerial.jpg') }}'); height: 40vh;">
+      <div class="overlay" data-aos="fade-up">
+        <h1>Licencia y Términos de Uso</h1>
+      </div>
+    </header>
+
+    <div class="content-inner">
+      <!-- Introduction -->
+      <section id="terms" data-aos="fade-up">
+        <h2>Términos de uso</h2>
+        <div class="site-content">
+          <p>Esta guía educativa ha sido desarrollada con fines educativos y de divulgación histórica. El contenido de esta web está sujeto a los siguientes términos y condiciones de uso.</p>
+          
+          <p>Los visitantes de este sitio pueden utilizar la información presentada únicamente con fines educativos, de investigación o de conmemoración. Se alienta el uso por parte de estudiantes, educadores e investigadores para promover la comprensión histórica del Holocausto y sus lecciones para la humanidad.</p>
+          
+          <div class="quote">
+            <strong>Copyright (c) 2025 Mario Teruel. All rights reserved.</strong><br><br>
+            Este repositorio se publica únicamente con fines de consulta y no se autoriza la copia, redistribución ni la creación de trabajos derivados sin el consentimiento expreso y por escrito del titular de los derechos.
+          </div>
+        </div>
+      </section>
+
+      <section id="copyright" data-aos="fade-up">
+        <h2>Derechos de autor</h2>
+        <div class="site-content">
+          <p>Todos los textos, diseños, estructuras de navegación y elementos originales de esta guía están protegidos por derechos de autor. La reproducción, distribución, modificación o creación de obras derivadas de estos contenidos está prohibida sin la autorización expresa del titular de los derechos.</p>
+          
+          <p>Para solicitar permiso para utilizar cualquier parte de este sitio más allá del uso educativo normal, por favor póngase en contacto con el administrador del sitio.</p>
+          
+          <p>El uso no autorizado de los materiales puede resultar en violaciones de derechos de autor y otras leyes aplicables.</p>
+        </div>
+      </section>
+
+      <section id="images" data-aos="fade-up">
+        <h2>Imágenes y contenido histórico</h2>
+        <div class="site-content">
+          <p>Las fotografías históricas y otros materiales documentales relacionados con Auschwitz-Birkenau mostrados en este sitio pueden estar sujetos a derechos de autor adicionales. Muchas de estas imágenes provienen del Museo Estatal de Auschwitz-Birkenau y se utilizan con fines educativos.</p>
+          
+          <p>En el caso de imágenes históricas, se ha procurado proporcionar la atribución apropiada. Si usted es el titular de los derechos de alguna imagen y considera que su uso en este sitio requiere autorización adicional, por favor póngase en contacto con nosotros.</p>
+          
+          <p><strong>Nota importante:</strong> El contenido histórico relacionado con el Holocausto se presenta con el mayor respeto hacia las víctimas y los supervivientes. El propósito es educativo y conmemorativo, nunca sensacionalista.</p>
+        </div>
+      </section>
+
+      <section id="educational" data-aos="fade-up">
+        <h2>Uso educativo</h2>
+        <div class="site-content">
+          <p>Se permite y se alienta el uso de esta guía en contextos educativos formales e informales, siempre que:</p>
+          
+          <ul>
+            <li>Se mantenga la integridad del contenido</li>
+            <li>Se proporcione la atribución adecuada</li>
+            <li>El uso sea sin fines comerciales</li>
+            <li>No se redistribuya el material completo</li>
+          </ul>
+          
+          <p>Los educadores pueden referirse a este sitio y compartir su URL con estudiantes como recurso para el estudio del Holocausto, pero no deben descargar, copiar o redistribuir masivamente el contenido.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Preservar y compartir la historia de Auschwitz-Birkenau es fundamental para educar a las generaciones presentes y futuras sobre las consecuencias del odio, el prejuicio y la indiferencia. Esta licencia busca encontrar un equilibrio entre permitir el uso educativo valioso y proteger la integridad del contenido.
+          </div>
+        </div>
+      </section>
+    </div><!-- /content-inner -->
+  </div><!-- /content -->
+  
+  <!-- Footer -->
+  <footer>
+    <div style="max-width: 1000px; width: 100%;">
+      <div class="footer-links text-center">
+        <a href="https://www.auschwitz.org" target="_blank">Sitio oficial</a>
+        <a href="/auschwitz">Auschwitz I</a>
+        <a href="/birkenau">Auschwitz II-Birkenau</a>
+        <a href="/guidelines">Normas de visita</a>
+        <a href="/history">Historia</a>
+        <a href="/license">Licencia</a>
+      </div>
+      <p class="text-center">© {{ 2025 }} Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
+      <p class="text-center small mt-2 license-footer">Copyright © 2025 Mario Teruel. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

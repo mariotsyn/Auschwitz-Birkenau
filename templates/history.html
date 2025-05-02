@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Historia del Memorial y Museo Estatal de Auschwitz-Birkenau">
+  
+  <title>Historia | Memorial Auschwitz-Birkenau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button id="menuToggle" class="menu-toggle d-lg-none" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <i id="moonIcon" class="bi bi-moon"></i>
+    <i id="sunIcon" class="bi bi-sun d-none"></i>
+  </button>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <a href="/" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
+      <span class="sidebar-subtitle">Guía Educativa</span>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Historia</div>
+      <a href="#origins" class="active">Orígenes</a>
+      <a href="#expansion">Expansión del campo</a>
+      <a href="#liberation">Liberación</a>
+      <a href="#memorial">Creación del memorial</a>
+      <a href="#timeline">Cronología</a>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Navegación</div>
+      <a href="/">Inicio</a>
+      <a href="/auschwitz">Auschwitz I</a>
+      <a href="/birkenau">Auschwitz II-Birkenau</a>
+      <a href="/guidelines">Normas de visita</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://cdn-imgix.headout.com/blog-banner/image/915a210e32cb1018183aa0a4d4c60c57-Auschwitz%20Birkenau.jpeg')">
+      <div class="overlay" data-aos="fade-up">
+        <h1>Historia de Auschwitz-Birkenau</h1>
+        <p class="lead">CONTEXTO HISTÓRICO Y EVOLUCIÓN</p>
+        <div class="scroll-indicator">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-inner">
+      <!-- Origins Section -->
+      <section id="origins" class="mb-5" data-aos="fade-up">
+        <h2>Orígenes del campo</h2>
+        <div class="site-content">
+          <p>El campo de concentración de Auschwitz fue establecido por las autoridades nazis en las afueras de Oświęcim, una ciudad polaca anexada por Alemania tras la invasión de Polonia en 1939. La decisión de crear este campo fue tomada en abril de 1940, y las primeras instalaciones se establecieron en antiguos cuarteles del ejército polaco.</p>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/96/8/1/20170418_112207,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Cuarteles originales que se convirtieron en Auschwitz I">
+            <div class="site-img-caption">Los antiguos cuarteles militares polacos que fueron transformados en Auschwitz I. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Propósito inicial:</strong> Originalmente, Auschwitz fue concebido como un campo de concentración para prisioneros políticos polacos, en un momento en que las cárceles en la Polonia ocupada estaban desbordadas. El 14 de junio de 1940, el primer transporte de 728 prisioneros políticos polacos llegó desde la prisión de Tarnów.</p>
+          
+          <p><strong>Administración y estructura:</strong> El primer comandante del campo fue el SS-Hauptsturmführer Rudolf Höss, quien dirigió Auschwitz hasta noviembre de 1943. Bajo su mando, el campo fue organizado según el modelo de Dachau y Sachsenhausen. Las SS establecieron una jerarquía de prisioneros basada en triángulos de colores que identificaban diferentes categorías: políticos (rojo), criminales (verde), "antisociales" (negro), homosexuales (rosa), Testigos de Jehová (púrpura), etc.</p>
+          
+          <p><strong>Evolución hacia el exterminio:</strong> A partir de 1941, la función de Auschwitz comenzó a transformarse. Con la planificación de la "Solución Final" (el plan nazi para exterminar a los judíos europeos), Auschwitz fue designado para cumplir un papel central en este genocidio. En septiembre de 1941, se realizaron los primeros experimentos con gas Zyklon B en el Bloque 11, utilizando prisioneros soviéticos como víctimas.</p>
+          
+          <div class="quote">
+            "Auschwitz no empezó como una fábrica de muerte. Evolucionó hacia ello, paso a paso, decisión tras decisión." — Deborah Dwork, historiadora
+          </div>
+          
+          <p><strong>Decisiones clave:</strong> La Conferencia de Wannsee en enero de 1942, aunque no mencionó específicamente a Auschwitz, consolidó la planificación administrativa del exterminio masivo de judíos. Durante ese mismo año, Auschwitz fue definitivamente designado como centro principal de este exterminio, por su situación geográfica (nudo ferroviario) y la posibilidad de expansión.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> El origen de Auschwitz nos recuerda que el Holocausto no fue un evento repentino, sino el resultado de un proceso gradual de radicalización. Comprender esta evolución es esencial para identificar los signos de alerta en cualquier sociedad que comienza a deshumanizar a grupos específicos.
+          </div>
+        </div>
+      </section>
+
+      <!-- Expansion Section -->
+      <section id="expansion" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Expansión del complejo</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/96/4/1/20110725_112428,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Vista aérea de Birkenau">
+            <div class="site-img-caption">Vista aérea de Auschwitz II-Birkenau, construido a partir de 1941 para ampliar la capacidad del complejo. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Creación de Birkenau (Auschwitz II):</strong> En octubre de 1941, las autoridades nazis comenzaron la construcción de un segundo campo, mucho más grande, en la aldea de Brzezinka (Birkenau), a 3 kilómetros de Auschwitz I. Inicialmente planificado como un campo para 100.000 prisioneros de guerra soviéticos, Birkenau se convirtió en el centro principal de exterminio masivo de judíos europeos.</p>
+          
+          <p>La construcción de Birkenau representó un salto cualitativo en la escala del complejo. Con una extensión de 175 hectáreas, el campo llegó a contener más de 300 barracones y tenía capacidad para albergar 100.000 prisioneros en condiciones de hacinamiento extremo.</p>
+          
+          <p><strong>Establecimiento de Monowitz (Auschwitz III):</strong> En octubre de 1942, se estableció un tercer campo cerca de la fábrica Buna de la empresa IG Farben. Este campo, conocido como Monowitz o Auschwitz III, albergaba prisioneros utilizados como mano de obra esclava en la producción de caucho sintético y combustible.</p>
+          
+          <p><strong>El sistema de subcampos:</strong> Además de los tres campos principales, el complejo de Auschwitz llegó a incluir aproximadamente 45-50 subcampos satélites distribuidos en un área amplia. Estos subcampos proporcionaban mano de obra esclava a minas, industrias y granjas agrícolas.</p>
+          
+          <p><strong>Construcción de las instalaciones de exterminio:</strong> El desarrollo más significativo en la evolución de Auschwitz fue la construcción de instalaciones específicamente diseñadas para el asesinato masivo. Entre marzo de 1942 y junio de 1943, se construyeron en Birkenau cuatro grandes crematorios (II, III, IV y V), cada uno con su propia cámara de gas. Estos crematorios podían asesinar y cremar hasta 8.000 personas diariamente.</p>
+          
+          <div class="quote">
+            "La industrialización del asesinato en Auschwitz representó una perversión sin precedentes de la tecnología moderna y la organización burocrática, puestas al servicio de la aniquilación sistemática de un pueblo." — Raul Hilberg, historiador
+          </div>
+          
+          <p><strong>El período de mayor actividad:</strong> La primavera y el verano de 1944 marcaron el punto culminante de las operaciones de exterminio en Auschwitz, durante lo que se conoce como el Holocausto húngaro. En apenas 56 días (entre mayo y julio), aproximadamente 437.000 judíos húngaros fueron deportados a Auschwitz, la mayoría asesinados inmediatamente a su llegada.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> La expansión física de Auschwitz refleja la intensificación del genocidio nazi. Lo que comenzó como un campo de concentración evolucionó hacia un vasto complejo industrial dedicado a la explotación de trabajo esclavo y al asesinato sistemático, demostrando cómo una sociedad moderna puede organizar sus recursos técnicos y administrativos para implementar un programa de destrucción humana a escala sin precedentes.
+          </div>
+        </div>
+      </section>
+
+      <!-- Liberation Section -->
+      <section id="liberation" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Liberación del campo</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/146/3/1/zdjecie-14,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Supervivientes tras la liberación">
+            <div class="site-img-caption">Supervivientes de Auschwitz poco después de la liberación por el Ejército Rojo, enero de 1945. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Evacuación y marchas de la muerte:</strong> A medida que el Ejército Rojo se aproximaba a Polonia en enero de 1945, las SS comenzaron a evacuar Auschwitz para eliminar evidencia de sus crímenes. Entre el 17 y el 21 de enero, cerca de 60.000 prisioneros fueron forzados a realizar marchas a pie en condiciones invernales extremas hacia otros campos más alejados del frente. Miles murieron durante estas "marchas de la muerte" debido al agotamiento, el frío, el hambre o ejecutados por guardias de las SS.</p>
+          
+          <p><strong>El día de la liberación:</strong> El 27 de enero de 1945, unidades del Ejército Rojo (específicamente, soldados de la 60ª División del Ejército del Primer Frente Ucraniano) liberaron Auschwitz. Encontraron en el complejo aproximadamente 7.000 prisioneros, la mayoría enfermos o moribundos, que habían sido dejados atrás porque estaban demasiado débiles para las marchas de evacuación.</p>
+          
+          <p><strong>Descubrimiento del horror:</strong> Los soldados soviéticos encontraron vastas cantidades de evidencia de los crímenes cometidos: aproximadamente 7.000 kg de cabello humano, 43.000 pares de zapatos, montañas de ropa y otros efectos personales de las víctimas. También descubrieron las ruinas de los crematorios que los nazis habían intentado destruir para ocultar evidencias.</p>
+          
+          <p><strong>Atención médica:</strong> El personal médico soviético estableció hospitales de campaña para atender a los supervivientes, muchos de los cuales sufrían desnutrición severa, disentería, tuberculosis y otras enfermedades graves. A pesar de estos esfuerzos, muchos supervivientes murieron en los días y semanas posteriores a la liberación debido a su estado crítico de salud.</p>
+          
+          <div class="quote">
+            "Cuando entramos en los campos, vimos el verdadero significado del horror humano. Habíamos luchado en muchas batallas brutales, pero esto era diferente. Esto no era guerra, era el intento de exterminar a pueblos enteros." — Georgii Elisavetskii, oficial soviético presente en la liberación
+          </div>
+          
+          <p><strong>Documentación y testimonios:</strong> Inmediatamente después de la liberación, comenzó el proceso de documentar los crímenes. Fotógrafos soviéticos como Alexander Vorontsov y filmadores como Alexander Voronsov capturaron imágenes que se convertirían en evidencia crucial. Los testimonios de supervivientes comenzaron a recogerse, aunque el mundo exterior tardó en comprender completamente la magnitud de lo ocurrido.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> El día de la liberación de Auschwitz, el 27 de enero (ahora reconocido internacionalmente como el Día Internacional de Conmemoración del Holocausto), marca un momento crucial en la historia del siglo XX. Representa no solo el fin del sufrimiento para los supervivientes que quedaron en el campo, sino también el comienzo del proceso de revelación al mundo de la verdadera naturaleza y escala del Holocausto.
+          </div>
+        </div>
+      </section>
+
+      <!-- Memorial Section -->
+      <section id="memorial" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Creación del memorial y museo</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/146/9/1/zdjecie-179,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Establecimiento del Museo en Auschwitz">
+            <div class="site-img-caption">Una de las primeras exposiciones del Museo Estatal de Auschwitz, establecido en 1947. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Establecimiento oficial:</strong> El 2 de julio de 1947, el Parlamento polaco aprobó la ley que establecía el Museo Estatal de Auschwitz-Birkenau en los terrenos de los antiguos campos de Auschwitz I y Birkenau. Esta decisión reflejaba la voluntad de preservar el sitio como testimonio de los crímenes nazis y como memorial para las víctimas.</p>
+          
+          <p><strong>Primeros años:</strong> En sus inicios, el museo se centró principalmente en la preservación física de las instalaciones y en recopilar evidencias y testimonios. Las primeras exposiciones estaban fuertemente influenciadas por el contexto político de la posguerra, con énfasis en el martirio polaco y la resistencia antifascista, mientras que la especificidad judía del Holocausto quedaba relativamente menos destacada.</p>
+          
+          <p><strong>Evolución de la narrativa:</strong> Con el paso de las décadas, la interpretación del sitio ha evolucionado para reflejar una comprensión más matizada del Holocausto. Desde los años 90, tras la caída del comunismo en Polonia, el museo ha desarrollado un enfoque más exhaustivo que reconoce plenamente la centralidad del genocidio judío, mientras también documenta el sufrimiento de otros grupos perseguidos.</p>
+          
+          <p><strong>Reconocimiento internacional:</strong> En 1979, la UNESCO incluyó al campo de Auschwitz-Birkenau en la Lista del Patrimonio Mundial, reconociendo su valor universal excepcional como testimonio de uno de los mayores crímenes contra la humanidad. En 2007, el nombre oficial fue modificado a "Auschwitz-Birkenau. Campo de concentración y exterminio nazi (1940-1945)" para reflejar con mayor precisión su naturaleza histórica.</p>
+          
+          <p><strong>Conservación y desafíos:</strong> El mantenimiento y la preservación del sitio presentan desafíos significativos. Los edificios, construidos originalmente como estructuras temporales, requieren constantes esfuerzos de conservación. En 2009 se estableció la Fundación Auschwitz-Birkenau para garantizar la financiación a largo plazo de estos trabajos de preservación.</p>
+          
+          <div class="quote">
+            "Nuestra responsabilidad hoy es doble: preservar auténticamente lo que queda del campo como evidencia material, y transmitir su significado a las generaciones que no tuvieron contacto directo con supervivientes." — Piotr Cywiński, Director del Museo Estatal de Auschwitz-Birkenau
+          </div>
+          
+          <p><strong>El museo hoy:</strong> Actualmente, el Museo Estatal de Auschwitz-Birkenau es uno de los sitios memoriales más visitados del mundo, recibiendo más de 2 millones de visitantes anualmente (antes de la pandemia de COVID-19). Además de mantener el sitio histórico, el museo desarrolla intensas actividades educativas, de investigación y publicación, contribuyendo significativamente a la comprensión global del Holocausto.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> La transformación de Auschwitz de lugar de exterminio a sitio de memoria representa el esfuerzo humano por confrontar su historia más oscura. Como institución memorial, Auschwitz plantea preguntas fundamentales sobre cómo recordar atrocidades masivas: ¿Cómo preservar lo auténtico sin sensacionalismo? ¿Cómo educar sin trivializar? ¿Cómo honrar a las víctimas mientras se extraen lecciones para el presente y el futuro?
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline Section -->
+      <section id="timeline" data-aos="fade-up">
+        <h2>Cronología</h2>
+        <div class="site-content">
+          <h4>1940-1941: Establecimiento y primeros años</h4>
+          <ul>
+            <li><strong>27 abril 1940:</strong> Heinrich Himmler ordena la creación de un campo de concentración en Oświęcim (Auschwitz).</li>
+            <li><strong>14 junio 1940:</strong> Primer transporte de 728 prisioneros políticos polacos llega a Auschwitz I.</li>
+            <li><strong>Octubre 1941:</strong> Comienza la construcción de Auschwitz II-Birkenau.</li>
+            <li><strong>3 septiembre 1941:</strong> Primeras pruebas con gas Zyklon B en el Bloque 11, utilizando prisioneros soviéticos.</li>
+          </ul>
+          
+          <h4>1942: Implementación de la "Solución Final"</h4>
+          <ul>
+            <li><strong>20 enero 1942:</strong> Conferencia de Wannsee, donde se coordina la implementación de la "Solución Final".</li>
+            <li><strong>Marzo 1942:</strong> Primeros transportes masivos de judíos llegan a Auschwitz.</li>
+            <li><strong>Julio 1942:</strong> Himmler visita Auschwitz y ordena la expansión de sus capacidades de exterminio.</li>
+            <li><strong>Octubre 1942:</strong> Establecimiento de Auschwitz III-Monowitz como campo de trabajo forzado.</li>
+          </ul>
+          
+          <h4>1943: Expansión de las instalaciones de exterminio</h4>
+          <ul>
+            <li><strong>Marzo-Junio 1943:</strong> Finaliza la construcción de los cuatro grandes crematorios con cámaras de gas en Birkenau.</li>
+            <li><strong>Octubre 1943:</strong> Rebelión de prisioneros judíos del Sonderkommando en el crematorio IV.</li>
+            <li><strong>Noviembre 1943:</strong> Rudolf Höss es reemplazado por Arthur Liebehenschel como comandante del campo.</li>
+          </ul>
+          
+          <h4>1944: Punto álgido del exterminio</h4>
+          <ul>
+            <li><strong>Mayo-Julio 1944:</strong> "Holocausto húngaro". Aproximadamente 437.000 judíos húngaros son deportados a Auschwitz, la mayoría asesinados a su llegada.</li>
+            <li><strong>Agosto 1944:</strong> Liquidación del "campo familiar de Theresienstadt", con el asesinato de 3.000 judíos checos.</li>
+            <li><strong>Noviembre 1944:</strong> Cese de las operaciones de gaseamiento por orden de Himmler, ante el avance aliado.</li>
+          </ul>
+          
+          <h4>1945: Evacuación, liberación y postguerra</h4>
+          <ul>
+            <li><strong>17-21 enero 1945:</strong> Evacuación de Auschwitz y comienzo de las "marchas de la muerte".</li>
+            <li><strong>27 enero 1945:</strong> Liberación de Auschwitz por el Ejército Rojo. Se encuentran aproximadamente 7.000 prisioneros con vida.</li>
+            <li><strong>Abril-Mayo 1945:</strong> Antiguos comandantes y guardias de Auschwitz son capturados por fuerzas aliadas.</li>
+            <li><strong>2 julio 1947:</strong> Establecimiento oficial del Museo Estatal de Auschwitz-Birkenau.</li>
+          </ul>
+          
+          <h4>Acontecimientos posteriores significativos</h4>
+          <ul>
+            <li><strong>Abril 1947-Diciembre 1947:</strong> Juicio y ejecución de Rudolf Höss.</li>
+            <li><strong>Noviembre 1947-Diciembre 1947:</strong> Juicio de Auschwitz en Cracovia contra 40 miembros del personal del campo.</li>
+            <li><strong>1979:</strong> UNESCO inscribe Auschwitz-Birkenau en la Lista del Patrimonio Mundial.</li>
+            <li><strong>1995:</strong> Establecimiento del 27 de enero como Día Internacional de Conmemoración del Holocausto.</li>
+            <li><strong>2005:</strong> Las Naciones Unidas declaran oficialmente el 27 de enero como Día Internacional de Conmemoración del Holocausto.</li>
+          </ul>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Esta cronología nos permite visualizar la evolución sistemática de Auschwitz, desde un campo de concentración a un centro de exterminio masivo. Cada fecha representa decisiones concretas tomadas por individuos específicos, recordándonos que el Holocausto no fue un desastre natural inevitable, sino el resultado de acciones humanas deliberadas.
+          </div>
+        </div>
+      </section>
+
+      <!-- Final Section -->
+      <section class="mt-5" data-aos="fade-up">
+        <div class="site-content">
+          <h3 class="text-center">Legado histórico</h3>
+          
+          <p>Auschwitz representa un punto de inflexión en la historia humana, un acontecimiento que desafía nuestra comprensión y nos obliga a reexaminar conceptos fundamentales sobre la civilización, la modernidad y la capacidad humana tanto para el mal como para la resistencia moral.</p>
+          
+          <p>Como símbolo del Holocausto, Auschwitz plantea preguntas cruciales sobre la responsabilidad histórica, la memoria colectiva y las lecciones que debemos extraer de este pasado traumático. ¿Cómo fue posible que una nación con una rica tradición cultural e intelectual implementara un programa sistemático de exterminio masivo? ¿Qué condiciones sociales, políticas y psicológicas lo hicieron posible? ¿Qué responsabilidad tuvieron los testigos pasivos, las instituciones internacionales y las naciones aliadas?</p>
+          
+          <div class="quote">
+            "Después de Auschwitz, escribir poesía es un acto de barbarie." — Theodor Adorno, filósofo
+          </div>
+          
+          <p>El estudio de la historia de Auschwitz va más allá de la documentación de hechos y fechas; implica un compromiso con la memoria como forma de justicia histórica para las víctimas y como fundamento ético para nuestro presente. Comprender Auschwitz significa reconocer tanto la fragilidad de nuestras instituciones democráticas y valores humanistas, como la urgente necesidad de defenderlos activamente.</p>
+          
+          <p>En un mundo donde el antisemitismo, el racismo y otras formas de odio siguen manifestándose, y donde nuevos genocidios han ocurrido después del "nunca más", Auschwitz permanece como una advertencia permanente sobre lo que puede suceder cuando el prejuicio queda sin respuesta y cuando la indiferencia prevalece frente a la violación sistemática de la dignidad humana.</p>
+        </div>
+      </section>
+
+    </div><!-- /content-inner -->
+
+    <!-- Footer -->
+    <footer>
+      <div style="max-width: 1000px; width: 100%;">
+        <div class="footer-links text-center">
+          <a href="https://www.auschwitz.org" target="_blank">Sitio oficial</a>
+          <a href="/">Inicio</a>
+          <a href="/auschwitz">Auschwitz I</a>
+          <a href="/birkenau">Auschwitz II-Birkenau</a>
+          <a href="/guidelines">Normas de visita</a>
+          <a href="/license">Licencia</a>
+        </div>
+        <p class="text-center">© {{ 2025 }} Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
+        <p class="text-center small mt-2 license-footer">Copyright © 2025 Mario Teruel. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </div><!-- /content -->
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img id="modalImage" src="" class="img-fluid w-100" alt="Vista ampliada">
+          <div id="modalCaption" class="p-3 text-center fst-italic"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

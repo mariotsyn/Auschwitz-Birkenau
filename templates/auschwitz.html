@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Auschwitz I - Guía educativa para visitantes del Memorial y Museo Estatal de Auschwitz-Birkenau">
+  
+  <title>Auschwitz I | Memorial Auschwitz-Birkenau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button id="menuToggle" class="menu-toggle d-lg-none" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <i id="moonIcon" class="bi bi-moon"></i>
+    <i id="sunIcon" class="bi bi-sun d-none"></i>
+  </button>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <a href="/" class="sidebar-brand">Memorial Auschwitz-Birkenau</a>
+      <span class="sidebar-subtitle">Guía Educativa</span>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Auschwitz I</div>
+      <a href="#a1" class="active">Puerta «Arbeit macht frei»</a>
+      <a href="#a2">Bloque 4 – Exterminio</a>
+      <a href="#a3">Bloque 5 – Pertenencias</a>
+      <a href="#a4">Bloque 6 – Registro</a>
+      <a href="#a5">Bloque 7 – Alojamiento</a>
+      <a href="#a6">Bloque 11 – Bloque de la muerte</a>
+      <a href="#a7">Enfermería y experimentos</a>
+      <a href="#a8">Plaza de formación</a>
+      <a href="#a9">Crematorio I</a>
+    </div>
+    
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Navegación</div>
+      <a href="/">Inicio</a>
+      <a href="/birkenau">Auschwitz II-Birkenau</a>
+      <a href="/guidelines">Normas de visita</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://cdn-imgix.headout.com/blog-banner/image/915a210e32cb1018183aa0a4d4c60c57-Auschwitz%20Birkenau.jpeg')">
+      <div class="overlay" data-aos="fade-up">
+        <h1>Auschwitz I</h1>
+        <p class="lead">CAMPO PRINCIPAL Y CENTRO ADMINISTRATIVO</p>
+        <div class="scroll-indicator">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-inner">
+      <!-- Introduction -->
+      <section class="mb-5" data-aos="fade-up">
+        <div class="site-content">
+          <p>Auschwitz I, establecido en junio de 1940, fue el campo principal y centro administrativo del complejo. Ubicado en antiguos cuarteles del ejército polaco, este sitio fue testigo del desarrollo de los métodos de persecución y exterminio nazis. A lo largo de sus cinco años de funcionamiento, decenas de miles de personas, principalmente polacos, judíos, prisioneros soviéticos y otros grupos perseguidos, fueron recluidos, torturados y asesinados en este lugar.</p>
+          
+          <p>Recorrer Auschwitz I permite comprender cómo un sistema burocrático de terror y muerte fue desarrollado y perfeccionado por el régimen nazi. Las exposiciones permanentes que hoy se encuentran en los bloques originales documentan distintos aspectos de esta realidad histórica, con objetos, fotografías y testimonios que iluminan la vida, sufrimiento y resistencia de las víctimas.</p>
+        </div>
+      </section>
+
+      <!-- Auschwitz I Sites -->
+      <section id="a1" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Puerta «Arbeit macht frei»</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/254/5/1/20120731_093250_copy,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Puerta Arbeit macht frei">
+            <div class="site-img-caption">Entrada principal a Auschwitz I con el infame letrero "Arbeit macht frei" (El trabajo os hará libres). © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Orígenes y simbolismo:</strong> Este infame letrero fue colocado en junio de 1940. La frase, que significa "El trabajo os hará libres", representaba una cruel ironía, pues para la inmensa mayoría de deportados no habría liberación posible. El letrero formaba parte del sistema de engaño y manipulación psicológica empleado por los nazis.</p>
+          
+          <p><strong>El acto de resistencia:</strong> Jan Liwacz, prisionero político polaco con el número 1010, contribuyó a la fabricación del letrero e invirtió deliberadamente la letra "B" como un acto sutil de resistencia y sabotaje. Este pequeño gesto de rebeldía representa la resistencia espiritual de los prisioneros ante la deshumanización.</p>
+          
+          <p><strong>La rutina del campo:</strong> Cada día, miles de prisioneros pasaban bajo este arco hacia el trabajo forzado, acompañados por la orquesta de prisioneros que tocaba marchas. Esta música formaba parte del sistema de control psicológico, creando una falsa sensación de normalidad en medio del horror.</p>
+          
+          <div class="quote">
+            "Pasamos cada día bajo ese letrero, un recordatorio constante de la mentira que sustentaba todo el sistema. Algunos miraban al suelo al pasar, incapaces de enfrentar ese símbolo del engaño. Otros lo mirábamos fijamente, como un acto de desafío silencioso." — Testimonio de Stanisław Grzesiuk, prisionero polaco
+          </div>
+          
+          <p>En 2009, el letrero original fue robado y posteriormente recuperado, aunque dañado. El que se ve actualmente es una réplica, mientras que el original se conserva en condiciones museísticas controladas.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Atravesar hoy esta puerta nos invita a examinar cómo el lenguaje y los símbolos pueden ser manipulados para ocultar atrocidades, y nos recuerda la fragilidad de nuestras instituciones frente a ideologías totalitarias.
+          </div>
+        </div>
+      </section>
+
+      <section id="a2" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Bloque 4 – «Exterminio»</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/306/7/1/20130605_155626,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Exposición en el Bloque 4">
+            <div class="site-img-caption">Exposición sobre el exterminio en el Bloque 4. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Transformación genocida:</strong> Esta exposición documenta la evolución de Auschwitz desde un campo de concentración a un centro de exterminio masivo. A través de mapas, documentos y objetos originales, se muestra cómo el régimen nazi desarrolló métodos cada vez más eficientes para el asesinato en masa.</p>
+          
+          <p>En septiembre de 1941 se realizaron las primeras pruebas con gas Zyklon B, utilizando prisioneros soviéticos como víctimas. Posteriormente, este método se industrializó con la construcción de grandes cámaras de gas en Birkenau, donde podían asesinarse hasta 2.000 personas simultáneamente.</p>
+          
+          <p>La exposición incluye latas originales de Zyklon B, maquetas de los crematorios y documentación estadística que ilustra la magnitud del genocidio: más de un millón de judíos, 70.000-75.000 polacos no judíos, 21.000 romaníes, 15.000 prisioneros soviéticos y 10.000-15.000 personas de otras nacionalidades.</p>
+          
+          <p><strong>Testimonios del Sonderkommando:</strong> Parte de la exposición está dedicada a los relatos de los miembros del Sonderkommando, prisioneros obligados a trabajar en las cámaras de gas y crematorios. Estos testimonios proporcionan detalles sobre la mecánica del exterminio y el sufrimiento de las víctimas.</p>
+          
+          <div class="quote">
+            "Llegamos a las cámaras de gas, y allí, tres o cuatro SS con máscaras de gas arrojaban el polvo a través de una escotilla en el techo..." — Testimonio de Filip Müller, sobreviviente del Sonderkommando
+          </div>
+          
+          <p>Una urna con cenizas humanas recuperadas del terreno del campo sirve como memorial a las víctimas cuyas vidas fueron reducidas a esta forma anónima.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Esta sección nos confronta con la capacidad humana para racionalizar y sistematizar la violencia extrema, recordándonos que el genocidio no comenzó con las cámaras de gas, sino con años de deshumanización gradual de grupos específicos.
+          </div>
+        </div>
+      </section>
+
+      <section id="a3" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Bloque 5 – «Pertenencias»</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/1/9/1/20110816_123733_1,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Maletas en el Bloque 5">
+            <div class="site-img-caption">Maletas confiscadas a los deportados, con nombres y fechas de nacimiento. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Almacenes "Kanada":</strong> Los prisioneros llamaban "Kanada" a los almacenes donde se clasificaban y guardaban los objetos robados a los deportados, un nombre que hacía referencia a Canadá como símbolo de riqueza. Este área contenía todo lo que las víctimas habían traído consigo: ropa, maletas, zapatos, gafas, prótesis, cepillos, juguetes y otros enseres personales.</p>
+          
+          <p>La exposición actual muestra una fracción de lo que se encontró tras la liberación, ya que la mayor parte fue enviada a Alemania durante el funcionamiento del campo. Estos objetos personales ilustran la magnitud del robo sistemático y la deshumanización de las víctimas.</p>
+          
+          <p><strong>Las maletas y la identidad:</strong> Particularmente conmovedoras son las maletas marcadas con nombres, fechas de nacimiento y direcciones. Estas etiquetas han permitido a investigadores y genealogistas rastrear historias individuales de víctimas que de otro modo habrían quedado en el anonimato.</p>
+          
+          <p><strong>El cabello humano:</strong> Una de las vitrinas más impactantes contiene aproximadamente 2 toneladas de cabello humano (de las 7 toneladas encontradas tras la liberación). Este cabello era cortado a las víctimas, principalmente mujeres, y enviado a Alemania para fabricar textiles industriales, un ejemplo más de la explotación total a la que fueron sometidas las víctimas.</p>
+          
+          <div class="quote">
+            "Tenía que abrir las maletas. Pasaban frente a mis ojos los últimos vestigios de vidas enteras. Cartas de amor, fotografías familiares, juguetes de niños... Sentía como si estuviera profanando tumbas." — Tadeusz Szymański, ex-prisionero asignado a "Kanada"
+          </div>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Estos objetos cotidianos nos conectan con la humanidad de las víctimas, recordándonos que el Holocausto no fue solo un crimen de escala masiva sino la suma de millones de tragedias individuales y familiares.
+          </div>
+        </div>
+      </section>
+
+      <section id="a4" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Bloque 6 – Registro y vida cotidiana</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/44/9/1/20140710_132018,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Fotografías de prisioneros en el Bloque 6">
+            <div class="site-img-caption">Fotografías de identificación de prisioneros en la exposición del Bloque 6. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Proceso de registro:</strong> Este bloque muestra cómo los prisioneros eran despojados de su identidad individual al llegar al campo. El proceso incluía el rapado del cabello, la desinfección, la entrega de uniformes a rayas y el tatuaje de un número de identificación para quienes no serían asesinados inmediatamente.</p>
+          
+          <p><strong>La galería fotográfica:</strong> Una de las salas más impactantes contiene fotografías de identificación de prisioneros. Entre 1940 y 1943, se fotografiaba a los prisioneros al llegar (excepto a los judíos enviados directamente a las cámaras de gas). Estas imágenes muestran rostros aún no marcados por el hambre y el maltrato, preservando un último vestigio de humanidad.</p>
+          
+          <p>Wilhelm Brasse, prisionero número 3444, fue obligado a trabajar como fotógrafo del campo. Realizó aproximadamente 40.000-50.000 retratos de identificación. Arriesgando su vida, logró salvar muchos negativos al final de la guerra, proporcionando un valioso testimonio visual.</p>
+          
+          <p><strong>Sistema de clasificación:</strong> La exposición explica el sistema de triángulos de colores que identificaba las categorías de prisioneros: rojo para presos políticos, verde para criminales, negro para "antisociales", rosa para homosexuales, púrpura para Testigos de Jehová, y una estrella amarilla combinada con otro triángulo para los judíos.</p>
+          
+          <div class="quote">
+            "Lo primero que nos quitaron fue nuestro nombre. Me convertí en el 73653. Ya no era Primo Levi; era un número entre miles de números idénticos." — Primo Levi, sobreviviente
+          </div>
+          
+          <p><strong>Niños en Auschwitz:</strong> Una sección especial documenta el destino de los aproximadamente 232.000 niños deportados al campo, de los cuales solo unos 650 sobrevivieron hasta la liberación. La mayoría de los niños judíos eran enviados directamente a las cámaras de gas; los que sobrevivieron a la selección inicial sufrieron condiciones inhumanas y muchos fueron sometidos a experimentos médicos.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Este bloque nos muestra cómo un sistema burocrático y "ordenado" puede ser usado para facilitar atrocidades, recordándonos la importancia de defender la dignidad y los derechos individuales frente a sistemas totalitarios.
+          </div>
+        </div>
+      </section>
+
+      <section id="a5" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Bloque 7 – Alojamiento</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/43/9/1/20140710_124939,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Literas en el Bloque 7">
+            <div class="site-img-caption">Reconstrucción de las condiciones de alojamiento en el Bloque 7. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Condiciones de vida:</strong> El Bloque 7 ha sido reconstruido para mostrar las condiciones de vida de los prisioneros. Originalmente diseñado para albergar a unas 250 personas, en los peores períodos llegó a contener hasta 700 prisioneros hacinados en literas de madera de tres niveles.</p>
+          
+          <p>Los prisioneros dormían sobre paja húmeda, frecuentemente infestada de piojos y otros parásitos. Las mantas eran escasas o inexistentes, incluso durante los duros inviernos polacos. La falta de higiene, el hacinamiento y la desnutrición contribuyeron a la rápida propagación de enfermedades.</p>
+          
+          <p><strong>Nutrición insuficiente:</strong> La dieta diaria consistía en aproximadamente 300 gramos de pan, una sopa aguada y ocasionalmente un poco de margarina, mermelada o embutido. Este régimen alimenticio, de unas 1.300-1.700 calorías diarias, era gravemente insuficiente para personas sometidas a trabajo físico intenso, llevando a una desnutrición severa y enfermedades relacionadas.</p>
+          
+          <p><strong>Epidemias:</strong> Las pésimas condiciones higiénicas provocaron brotes recurrentes de tifus y otras enfermedades infecciosas. En 1942, las epidemias de tifus causaron miles de muertes. Las SS temían el contagio, lo que ocasionalmente resultaba en la suspensión de transportes o incluso en la "selección" de enfermos para ser asesinados.</p>
+          
+          <div class="quote">
+            "No éramos hombres para ellos. Éramos números, y como números nos trataban. Un número no tiene hambre, frío, miedo, esperanza. Un número puede ser borrado sin que nadie lo lamente." — Tadeusz Borowski, sobreviviente y escritor
+          </div>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Las condiciones inhumanas de Auschwitz no fueron accidentales, sino parte de un sistema diseñado para degradar a los prisioneros a un estado de mera supervivencia, privándolos de dignidad y humanidad.
+          </div>
+        </div>
+      </section>
+
+      <section id="a6" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Bloque 11 – "Bloque de la muerte"</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/315/3/1/20140709_164048,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Muro Negro en el Bloque 11">
+            <div class="site-img-caption">El "Muro Negro" entre los bloques 10 y 11, donde se realizaban ejecuciones. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Centro de castigo:</strong> El Bloque 11 servía como prisión dentro del campo, donde se aplicaban castigos especiales y se mantenía a los prisioneros acusados de intentos de fuga, resistencia o contacto con el exterior. Además de celdas regulares, contenía varios tipos de celdas de castigo diseñadas para infligir sufrimiento extremo.</p>
+          
+          <p><strong>Celdas especiales:</strong> Entre estas se encontraban las "celdas de pie" (Stehzellen), espacios de 90×90 centímetros donde hasta cuatro prisioneros debían permanecer de pie toda la noche, después de una jornada de trabajo. También existían "celdas de hambre" donde los prisioneros eran abandonados sin comida ni agua hasta su muerte.</p>
+          
+          <p><strong>Primeros experimentos con Zyklon B:</strong> En el sótano del Bloque 11 se llevaron a cabo, en septiembre de 1941, los primeros experimentos de asesinato masivo usando gas Zyklon B. Aproximadamente 600 prisioneros soviéticos y 250 polacos enfermos fueron las primeras víctimas de este método que luego se ampliaría para el exterminio industrial.</p>
+          
+          <p><strong>El "Muro Negro":</strong> Entre los Bloques 10 y 11 se encuentra el "Muro Negro" (Schwarze Wand), donde se realizaban ejecuciones por fusilamiento. Miles de prisioneros, principalmente polacos, fueron asesinados contra este muro. Para amortiguar el sonido de los disparos, el muro estaba cubierto con material especial y se usaba música alta para encubrir los ruidos.</p>
+          
+          <div class="quote">
+            "Nadie que cruzaba la puerta del Bloque 11 sabía si saldría con vida. Los gritos que se escuchaban desde sus ventanas enmudeciadas eran parte del terror diario del campo." — Józef Garliński, historiador y ex-prisionero
+          </div>
+          
+          <p><strong>Maximilian Kolbe:</strong> En este bloque ocurrió el martirio del sacerdote polaco Maximilian Kolbe, quien se ofreció a morir en lugar de Franciszek Gajowniczek, un padre de familia seleccionado para morir de hambre como castigo tras la fuga de otro prisionero. Kolbe fue canonizado en 1982 por el Papa Juan Pablo II.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> El Bloque 11 representa la crueldad extrema y sistemática del sistema concentracionario nazi, pero también contiene historias de extraordinaria solidaridad humana en las circunstancias más adversas.
+          </div>
+        </div>
+      </section>
+
+      <section id="a7" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Enfermería y experimentos médicos</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/37/9/1/20110406_164809,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Bloques hospitalarios">
+            <div class="site-img-caption">Bloques donde se realizaban experimentos médicos. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Perversión de la medicina:</strong> En Auschwitz, los principios éticos fundamentales de la medicina fueron completamente subvertidos. Los médicos, en lugar de curar, participaban activamente en la selección de víctimas para las cámaras de gas y realizaban experimentos pseudo-científicos sin consentimiento en prisioneros indefensos.</p>
+          
+          <p><strong>El Bloque 10:</strong> Este bloque albergaba laboratorios donde médicos como Carl Clauberg y Horst Schumann realizaban experimentos de esterilización en mujeres, principalmente judías. Clauberg inyectaba sustancias químicas en los órganos reproductivos femeninos, causando inflamaciones severas, dolor extremo y a menudo la muerte. El objetivo era desarrollar métodos eficientes para esterilizar poblaciones enteras consideradas "racialmente indeseables".</p>
+          
+          <p><strong>Josef Mengele:</strong> Conocido como el "Ángel de la Muerte", Mengele realizaba experimentos particularmente crueles en gemelos, enanos y personas con anomalías físicas. Estaba obsesionado con las investigaciones genéticas y la herencia racial. Sus experimentos incluían inyecciones de sustancias tóxicas, transfusiones de sangre entre gemelos, cirugías sin anestesia y disecciones de víctimas vivas.</p>
+          
+          <div class="quote">
+            "Nos miraba como si no fuéramos humanos, solo especímenes de laboratorio. Su sonrisa era lo más aterrador; podía seleccionar a alguien para morir y luego acariciar la cabeza de un niño, todo con la misma expresión." — Eva Mozes Kor, sobreviviente de los experimentos con gemelos
+          </div>
+          
+          <p><strong>Resistencia médica:</strong> A pesar del terror, algunos médicos prisioneros, como Gisella Perl, una ginecóloga judía húngara, arriesgaron sus vidas para ayudar a otros prisioneros. Perl realizaba abortos secretos a mujeres embarazadas, sabiendo que las mujeres embarazadas eran enviadas inmediatamente a las cámaras de gas o sometidas a experimentos brutales.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Los experimentos médicos de Auschwitz nos recuerdan que el conocimiento científico sin ética puede convertirse en un instrumento de barbarie. Estos eventos llevaron posteriormente al desarrollo del Código de Núremberg (1947), que estableció principios éticos para la experimentación con seres humanos, incluyendo el consentimiento informado.
+          </div>
+        </div>
+      </section>
+
+      <section id="a8" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Plaza de formación</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/43/2/1/20110810_113639,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Plaza de formación de Auschwitz I">
+            <div class="site-img-caption">Plaza de formación (Appellplatz) donde se realizaban los recuentos diarios. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Los recuentos diarios:</strong> En la plaza central de Auschwitz I se realizaban los "Appell" o recuentos, dos veces al día, independientemente de las condiciones climáticas. Todos los prisioneros debían formarse por bloques y permanecer en posición de firmes mientras los oficiales SS contaban varias veces para asegurarse de que nadie había escapado.</p>
+          
+          <p>Estos recuentos podían durar horas, especialmente si las cifras no coincidían o si se sospechaba de alguna fuga. En julio de 1943, tras una fuga, se realizó un recuento que duró 19 horas continuas, durante el cual al menos 12 prisioneros murieron de agotamiento o hipotermia.</p>
+          
+          <p><strong>Castigos públicos:</strong> La plaza de formación también servía como escenario para castigos ejemplares. Las ejecuciones por ahorcamiento se realizaban frecuentemente ante todos los prisioneros como advertencia. Los prisioneros estaban obligados a presenciar estos actos, diseñados para romper la moral y disuadir actos de resistencia.</p>
+          
+          <div class="quote">
+            "Permanecer de pie durante horas era una tortura en sí misma. Veías caer a los más débiles, uno a uno. Empujábamos como podíamos a los que se desplomaban para que los guardias no los vieran, porque ser notado significaba una paliza o la muerte." — Witold Pilecki, oficial de resistencia polaco que se infiltró voluntariamente en Auschwitz
+          </div>
+          
+          <p><strong>Actos de resistencia:</strong> A pesar del terror, la plaza de formación también fue escenario de pequeños actos de resistencia moral. En algunas ocasiones, durante las ejecuciones, prisioneros susurraban oraciones o cantaban discretamente, arriesgándose a severos castigos para mantener su dignidad y humanidad frente a la brutalidad nazi.</p>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> La plaza de formación simboliza el intento nazi de quebrar no solo los cuerpos sino también el espíritu de los prisioneros a través de la humillación pública y el terror colectivo. Los pequeños actos de resistencia que ocurrían incluso en este espacio nos recuerdan la resiliencia del espíritu humano frente a la opresión extrema.
+          </div>
+        </div>
+      </section>
+
+      <section id="a9" data-aos="fade-up">
+        <div class="site-content">
+          <h3>Crematorio I</h3>
+          
+          <div class="site-img-container">
+            <img src="https://www.auschwitz.org/gfx/auschwitz/_thumbs/pl/defaultgalerie/1/5/1/20110406_132336,oHuCn6impHGVqcKHZpY.jpg" class="site-img" alt="Interior del Crematorio I">
+            <div class="site-img-caption">Interior reconstruido del Crematorio I. © Museo Estatal de Auschwitz-Birkenau</div>
+          </div>
+          
+          <p><strong>Primer crematorio y cámara de gas:</strong> El Crematorio I de Auschwitz I fue el primer sitio donde se combinaron una cámara de gas y hornos crematorios. Originalmente construido como morgue del campo, fue adaptado en 1941 para convertirse en instrumento de asesinato masivo tras los primeros experimentos con Zyklon B en el Bloque 11.</p>
+          
+          <p><strong>Capacidad y operación:</strong> La cámara de gas del Crematorio I podía contener aproximadamente 700 personas a la vez, y los tres hornos crematorios instalados por la empresa Topf & Söhne tenían capacidad para incinerar unos 340 cuerpos diariamente. Este crematorio funcionó principalmente hasta 1943, cuando la operación de exterminio se trasladó principalmente a las instalaciones más grandes de Birkenau.</p>
+          
+          <p><strong>Reconversión y reconstrucción:</strong> En 1943, el crematorio fue convertido en refugio antiaéreo para las SS, lo que implicó la división de la cámara de gas en varias habitaciones más pequeñas. Los hornos fueron desmontados. Tras la liberación, en 1947, el sitio fue parcialmente reconstruido como memorial para ilustrar la función que cumplió durante el Holocausto.</p>
+          
+          <p>La reconstrucción actual muestra la distribución aproximada de la cámara de gas y los hornos crematorios, con el objetivo de permitir a los visitantes comprender cómo funcionaba el proceso de exterminio. Se han preservado detalles como las marcas en las paredes y las aberturas en el techo por donde se introducía el Zyklon B.</p>
+          
+          <div class="quote">
+            "Los verdugos intentaron destruir las evidencias de sus crímenes. Dinamitaron los crematorios en Birkenau, pero incluso estos restos reconstruidos son un testimonio que debe ser visto y comprendido."  — Piotr Cywiński, Director del Museo Estatal de Auschwitz-Birkenau
+          </div>
+          
+          <div class="reflection">
+            <em>Reflexión:</em> Este espacio, donde comenzó a implementarse el sistema de asesinato masivo que definiría el Holocausto, nos obliga a confrontar la realidad material del genocidio y a reflexionar sobre cómo tecnologías aparentemente neutras pueden ser puestas al servicio de la destrucción humana.
+          </div>
+        </div>
+      </section>
+      
+      <!-- Final Reflection for Auschwitz I -->
+      <section class="mt-5" data-aos="fade-up">
+        <div class="site-content">
+          <h3 class="text-center">Reflexión sobre Auschwitz I</h3>
+          
+          <p>Auschwitz I, con sus bloques de ladrillo rojo y calles simétricas, nos muestra cómo un lugar ordinario puede transformarse en escenario de horror extraordinario. Lo que comenzó como un campo de concentración para prisioneros políticos evolucionó hasta convertirse en el centro administrativo de una maquinaria de exterminio sin precedentes en la historia humana.</p>
+          
+          <p>Los edificios que hoy recorremos como museo fueron testigos tanto de la inhumanidad extrema como de actos sorprendentes de solidaridad y resistencia. Entre estas paredes, seres humanos fueron reducidos a números, pero muchos lucharon por mantener su dignidad y humanidad incluso en las circunstancias más degradantes.</p>
+          
+          <p>Visitar Auschwitz I no es solo un acto de memoria histórica, sino también una oportunidad para reflexionar sobre la fragilidad de nuestra civilización y los peligros del odio, el prejuicio y la indiferencia. Este lugar nos recuerda nuestra responsabilidad colectiva de permanecer vigilantes ante los primeros signos de deshumanización y discriminación.</p>
+          
+          <div class="quote">
+            "Auschwitz no cayó del cielo. Se construyó ladrillo a ladrillo, decreto a decreto, indiferencia a indiferencia." — Marian Turski, sobreviviente de Auschwitz
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /content-inner -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.auschwitz.org" target="_blank">Sitio oficial</a>
+        <a href="/">Inicio</a>
+        <a href="/birkenau">Auschwitz II-Birkenau</a>
+      </div>
+      <p>© {{ 2025 }} Guía Educativa Memorial Auschwitz-Birkenau | Desarrollado con fines educativos</p>
+    </footer>
+  </div><!-- /content -->
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img id="modalImage" src="" class="img-fluid w-100" alt="Vista ampliada">
+          <div id="modalCaption" class="p-3 text-center fst-italic"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
